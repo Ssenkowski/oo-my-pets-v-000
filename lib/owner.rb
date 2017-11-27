@@ -9,7 +9,7 @@ end
 def all(name)
   @name = name
   @@all << @name
-
+  @@all
 end
 
 end
