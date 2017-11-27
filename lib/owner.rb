@@ -2,8 +2,11 @@ class Owner
 attr_accessor :pets,
 
 OWNERS = []
+
 def initialize(species)
+  @species = species
   @pets = {fishes: [], cats: [], dogs: []}
+  OWNERS 
 end
 
 def self.all
