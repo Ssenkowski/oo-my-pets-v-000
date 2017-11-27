@@ -28,7 +28,7 @@ def say_species
    #Why don't I have to use "puts" here?
 end
 
-def buy_fish
+def buy_fish(name)
   pets[:fishes] << Fish.new(name)
 end
 
