@@ -10,4 +10,8 @@ def self.all
   OWNERS
 end
 
+def self.count
+  OWNERS.count
+end
+
 end
