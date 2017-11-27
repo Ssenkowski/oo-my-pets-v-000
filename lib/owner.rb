@@ -6,7 +6,7 @@ OWNERS = []
 def initialize(species)
   @species = species
   @pets = {fishes: [], cats: [], dogs: []}
-  OWNERS 
+  OWNERS << self
 end
 
 def self.all
