@@ -2,7 +2,7 @@ class Owner
 
   @@all = []
 
-def initialize(human)
+def initialize(name)
   @name = human
   @pets = {fishes: [], cats: [], dogs: []}
 end
