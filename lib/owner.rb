@@ -25,6 +25,11 @@ end
 
 def say_species
    "I am a #{species}."
+   #Why don't I have to use "puts" here?
+end
+
+def buy_fish
+  pets[:fishes] << Fish.new(name)
 end
 
 end
