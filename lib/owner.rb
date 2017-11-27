@@ -61,7 +61,7 @@ end
 def sell_pets
   pets.each do |species, animals|
     animals.each do |pet, mood|
-      if self.sell_pets
+      if sell_pets
         mood = "nervous"
       end
     end
