@@ -23,4 +23,8 @@ def self.reset_all
   OWNERS.clear
 end
 
+def say_species(species)
+  self.species
+end
+
 end
