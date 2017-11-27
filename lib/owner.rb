@@ -68,7 +68,7 @@ def sell_pets
 end
 
 def list_pets
-  "I have #{pets[:fishes][0.size]}"
+  "I have #{pets[:fishes].count}"
 end
 
 end
