@@ -63,7 +63,7 @@ def sell_pets
     animals.each do |pet|
         pet = "nervous"
     end
-    pets.clear
+    animals.clear
   end
 end
 
