@@ -1,6 +1,6 @@
 class Owner
 
-def self.all?
+def self.all
   OWNERS
 end
 
