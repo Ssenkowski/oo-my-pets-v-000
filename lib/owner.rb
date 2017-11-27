@@ -64,6 +64,7 @@ def sell_pets
       if self.sell_pets
         mood = "nervous"
       end
+    end
   end
 end
 
