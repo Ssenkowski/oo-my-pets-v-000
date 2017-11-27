@@ -1,9 +1,12 @@
 class Owner
 
+  @@all = []
+
+
 def initialize(name)
   @name = name
   @owner = []
-  @owner << @name
+  @@all << @name
   @pets = {fishes: [], cats: [], dogs: []}
 end
 
