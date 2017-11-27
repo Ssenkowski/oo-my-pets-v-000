@@ -24,7 +24,7 @@ def self.reset_all
 end
 
 def say_species
-  self.species
+   "I am a #{species}."
 end
 
 end
