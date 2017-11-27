@@ -63,7 +63,7 @@ def sell_pets
 end
 
 def list_pets
-  @pets
+  "I have #{pets:[fishes][0].size}"@pets
 end
 
 end
