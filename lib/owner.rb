@@ -19,7 +19,7 @@ def self.count
   OWNERS.count
 end
 
-def self.reset
+def self.reset_all
   OWNERS.reset
 end
 end
