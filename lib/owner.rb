@@ -62,7 +62,6 @@ def sell_pets
   pets.each do |species, animals|
     animals.each do |pet|
         pet = "nervous"
-      end
     end
   end
 end
