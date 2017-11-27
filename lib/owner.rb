@@ -59,7 +59,10 @@ def feed_fish
 end
 
 def sell_pets
-
+  pets.each do |species, animals|
+    animals.each do |pet, name|
+    
+  end
 end
 
 def list_pets
