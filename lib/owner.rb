@@ -2,11 +2,11 @@ class Owner
 
   @@all = []
 
-def initialize
+def initialize(owner)
   @pets = {fishes: [], cats: [], dogs: []}
 end
 
-def all(name)
+def self.all(name)
   @name = name
   @@all << @name
   @@all
