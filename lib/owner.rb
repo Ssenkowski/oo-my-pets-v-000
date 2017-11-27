@@ -16,7 +16,7 @@ def self.all
 end
 
 def self.count
-  OWNERS.count
+  OWNERS.size
 end
 
 def self.reset_all
