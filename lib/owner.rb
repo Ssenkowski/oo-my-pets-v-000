@@ -23,8 +23,9 @@ def self.reset_all
   OWNERS.clear
 end
 
-def say_species
-  self.species
+def say_species 
+  species = self.species
+  puts "I am a #{species}"
 end
 
 end
