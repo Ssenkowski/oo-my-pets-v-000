@@ -5,6 +5,7 @@ attr_accessor :mood
 
 def initialize(name)
   @name = name
+  @mood
 end
 
 end
